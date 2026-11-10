@@ -52,7 +52,8 @@ Individual Contributions:
 
 Muktar Aikorkem:
 - Developed the Home page (`index.html`)
-- Developed the Menu page (`menu.html`)
+-  Developed the About page (`about.html`)
+- Created and maintained the main stylesheet (`style.css`)
 - Created and updated the project README (`README.md`)
 - Published the final website using GitHub Pages
 - Worked on the navigation structure
@@ -63,8 +64,7 @@ Muktar Aikorkem:
 
 Kapessova Danaiym:
 - Developed the Gallery page (`gallery.html`)
-- Developed the Reservation page (`reservation.html`)
-- Created and maintained the main stylesheet (`style.css`)
+-Developed the Drinks page (`drinks.html`)
 - Implemented the Gallery layout using CSS Grid
 - Worked on the reservation form styling and layout
 - Worked on responsive design and media queries
@@ -72,8 +72,8 @@ Kapessova Danaiym:
 - Helped with final testing and styling improvements
 
 Sansyzbay Assylkhan:
-- Developed the Drinks page (`drinks.html`)
-- Developed the About page (`about.html`)
+-Developed the Reservation page (`reservation.html`)
+-Developed the Menu page (`menu.html`)
 - Worked on the HTML structure and content of both pages
 - Worked on Bootstrap components and responsive layouts
 - Added and arranged images and page sections
