@@ -1,3 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Aura & Bean</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">Aura & Bean</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="drinks.html">Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container text-center">
+            <p class="subtitle">JOIN OUR CLUB</p>
+            <h1>Create an Account</h1>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <p class="text-center text-muted mb-4">Register to become a member of the Aura & Bean club and get every 10th coffee for free.</p>
+
+                    <div id="formAlert" class="alert"></div>
+
+                    <form id="registerForm" class="p-4 p-md-5 rounded-4 bg-card border border-color" novalidate>
+                        <div class="mb-3">
+                            <label for="regName" class="form-label">Full Name *</label>
+                            <input type="text" class="form-control" id="regName" placeholder="Your name">
+                            <div class="invalid-feedback"></div>
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="regEmail" class="form-label">Email Address *</label>
+                            <input type="email" class="form-control" id="regEmail" placeholder="example@mail.com">
+                            <div class="invalid-feedback"></div>
+                            <div class="valid-feedback">Email is correct!</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="regPassword" class="form-label">Password *</label>
+                            <input type="password" class="form-control" id="regPassword" placeholder="At least 6 characters">
+                            <div class="invalid-feedback"></div>
+                            <div class="progress mt-2 strength-progress">
+                                <div id="strengthBar" class="progress-bar"></div>
+                            </div>
+                            <small id="strengthText" class="strength-text"></small>
+                        </div>
 <div class="mb-3">
                             <label for="regConfirm" class="form-label">Confirm Password *</label>
                             <input type="password" class="form-control" id="regConfirm" placeholder="Repeat your password">
