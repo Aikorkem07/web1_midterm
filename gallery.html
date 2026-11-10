@@ -41,22 +41,53 @@
 
     <section class="gallery-section">
         <div class="container">
+            <p class="text-center text-muted mb-4">Click on any photo to see it bigger.</p>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <img src="images/gallery1.jpg" alt="Coffee Interior" loading="lazy">
+                    <span class="gallery-caption">Coffee Interior</span>
                 </div>
                 <div class="gallery-item">
                     <img src="images/gallery2.jpg" alt="Coffee Pouring" loading="lazy">
+                    <span class="gallery-caption">Coffee Pouring</span>
                 </div>
                 <div class="gallery-item">
                     <img src="images/gallery3.jpg" alt="Barista Work" loading="lazy">
+                    <span class="gallery-caption">Barista Work</span>
                 </div>
                 <div class="gallery-item">
                     <img src="images/gallery4.jpg" alt="Beans Roasting" loading="lazy">
+                    <span class="gallery-caption">Beans Roasting</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/about-barista.jpg" alt="Our Barista" loading="lazy">
+                    <span class="gallery-caption">Our Barista</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/latte.jpg" alt="Latte Art" loading="lazy">
+                    <span class="gallery-caption">Latte Art</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/caramel-macchiato.jpg" alt="Caramel Macchiato" loading="lazy">
+                    <span class="gallery-caption">Caramel Macchiato</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/croissant.jpg" alt="Fresh Croissant" loading="lazy">
+                    <span class="gallery-caption">Fresh Croissant</span>
                 </div>
             </div>
         </div>
     </section>
+
+    <div id="lightbox" class="lightbox">
+        <button id="lightboxClose" class="lightbox-close">&times;</button>
+        <button id="prevBtn" class="lightbox-arrow lightbox-prev">&#10094;</button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="">
+            <p id="lightboxCaption" class="mt-3"></p>
+        </div>
+        <button id="nextBtn" class="lightbox-arrow lightbox-next">&#10095;</button>
+    </div>
 </main>
 
 <footer class="site-footer">
